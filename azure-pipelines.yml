@@ -1,5 +1,5 @@
 trigger:
-  - '*'
+- '*'
   
   pool:
     vmImage: 'ubuntu-18.04'
@@ -44,4 +44,3 @@ trigger:
       arguments: '--no-restore --configuration Release'
       projects: '**/*.csproj'
 
-      
